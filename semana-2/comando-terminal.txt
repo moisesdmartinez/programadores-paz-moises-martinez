@@ -1,0 +1,13 @@
+pwd
+ls
+mkdir semana2
+cd semana2
+touch preguntas-semana2.txt
+touch comandos-terminal.txt
+touch reflexion-semana2.txtnano preguntas-semana2.txt
+nano comandos-terminal.txt
+nano reflexion-semana2.txt
+git status
+git add .
+git commit -m "actividad semana 2 
+git push
