@@ -1,0 +1,18 @@
+La ruta POST /registro recibe datos enviados en formato JSON.
+
+Cuando se envía:
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+el servidor responde:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Esto confirma que Express recibió correctamente la información enviada por el usuario.
