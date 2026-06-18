@@ -1,0 +1,5 @@
+Al enviar un reporte mediante la ruta POST /reportes, el servidor recibe la información y la guarda temporalmente en el array reportes.
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve todos los reportes registrados mientras el servidor permanezca encendido.
+
+Si el servidor se reinicia, los reportes almacenados en memoria se eliminan.
